@@ -1,0 +1,124 @@
+Tworzenie obiektu klienta i clustra
+0 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using SLF4J as the default logging framework
+99 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 2
+185 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+190 [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+191 [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+193 [main] DEBUG io.netty.util.internal.PlatformDependent0  - direct buffer constructor: available
+200 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: available, true
+200 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.DirectByteBuffer.<init>(long, int): available
+201 [main] DEBUG io.netty.util.internal.Cleaner0  - java.nio.ByteBuffer.cleaner(): available
+204 [main] DEBUG io.netty.util.internal.PlatformDependent  - Java version: 8
+204 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noUnsafe: false
+204 [main] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+205 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noJavassist: false
+206 [main] DEBUG io.netty.util.internal.PlatformDependent  - Javassist: unavailable
+206 [main] DEBUG io.netty.util.internal.PlatformDependent  - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+207 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+208 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+208 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+208 [main] DEBUG io.netty.util.internal.PlatformDependent  - io.netty.maxDirectMemory: 484573184 bytes
+352 [main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+353 [main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+355 [main] DEBUG io.netty.util.internal.PlatformDependent  - org.jctools-core.MpscChunkedArrayQueue: available
+636 [main] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 33118 (auto-detected)
+642 [main] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv4Stack: false
+646 [main] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv6Addresses: false
+648 [main] DEBUG io.netty.util.NetUtil  - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+648 [main] DEBUG io.netty.util.NetUtil  - /proc/sys/net/core/somaxconn: 128
+659 [main] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: 00:0c:29:ff:fe:0b:95:93 (auto-detected)
+659 [main] DEBUG io.netty.util.internal.ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0x3c11cfe4d26e6e39
+694 [main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.level: simple
+694 [main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.maxRecords: 4
+733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 2
+733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 2
+733 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.tinyCacheSize: 512
+736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+763 [main] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+764 [main] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 65536
+765 [main] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+960 [main] INFO com.basho.riak.client.core.RiakNode  - RiakNode started; localhost:8087
+967 [main] INFO com.basho.riak.client.core.RiakCluster  - RiakCluster is starting.
+Cluster started, running nodes:[com.basho.riak.client.core.RiakNode@3e6fa38a]
+977 [main] INFO com.basho.riak.client.core.util.DefaultCharset  - No desired charset found in system properties, the default charset 'UTF-8' will be used
+979 [main] INFO com.basho.riak.client.core.util.DefaultCharset  - Initializing client charset to: UTF-8
+1695 [main] DEBUG com.basho.riak.client.core.RiakNode  - Attempting to acquire channel permit
+1697 [main] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.maxCapacityPerThread: 32768
+1697 [main] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+1697 [main] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.linkCapacity: 16
+1697 [main] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.ratio: 8
+1698 [main] DEBUG com.basho.riak.client.core.RiakNode  - Operation 2036127838 being executed on RiakNode localhost:8087
+1727 [nioEventLoopGroup-2-1] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.bytebuf.checkAccessible: true
+1729 [nioEventLoopGroup-2-1] DEBUG io.netty.util.ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7f4f70c6
+1788 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Operation onSuccess() channel: id:-1868344707 localhost:8087
+1799 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting to Cleanup Wait State
+1799 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakCluster  - operation 2036127838 complete; remaining retries: 2
+1799 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Channel id:-1868344707 returned to pool
+1799 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Released pool permit
+1799 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting Complete on future
+Wrzucono nowy dokument: 
+{namespace: {type: default, bucket: movies}, key: Hitchcock}
+1805 [main] DEBUG com.basho.riak.client.core.RiakNode  - Attempting to acquire channel permit
+1821 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Operation onSuccess() channel: id:-1868344707 localhost:8087
+1828 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting to Cleanup Wait State
+1828 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakCluster  - operation 1337335626 complete; remaining retries: 2
+1828 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Channel id:-1868344707 returned to pool
+1828 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Released pool permit
+1828 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting Complete on future
+1828 [main] DEBUG com.basho.riak.client.core.RiakNode  - Operation 1337335626 being executed on RiakNode localhost:8087
+Pobieranie i wypisywanie dokumentu: 
+RiakObject{contentType: application/json, value: {"id":1,"title":"Psychoza","director":"Hitchcock","releaseYear":1960}, riakIndexes: null, links: null, userMeta: null, vtag: 5OttMrXlzT8sOtT1W35STG, isDeleted: false, isModified: false, vclock: com.basho.riak.client.api.cap.BasicVClock@d693d1a4, lastModified: 1592171151438}
+1861 [main] DEBUG com.basho.riak.client.core.RiakNode  - Attempting to acquire channel permit
+1863 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Operation onSuccess() channel: id:-1868344707 localhost:8087
+1863 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting to Cleanup Wait State
+1863 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakCluster  - operation 1621877036 complete; remaining retries: 2
+1863 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Channel id:-1868344707 returned to pool
+1863 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Released pool permit
+1863 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting Complete on future
+1863 [main] DEBUG com.basho.riak.client.core.RiakNode  - Operation 1621877036 being executed on RiakNode localhost:8087
+1934 [main] DEBUG com.basho.riak.client.core.RiakNode  - Attempting to acquire channel permit
+1942 [main] DEBUG com.basho.riak.client.core.RiakNode  - Operation 2073621255 being executed on RiakNode localhost:8087
+1945 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Operation onSuccess() channel: id:-1868344707 localhost:8087
+1945 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting to Cleanup Wait State
+1948 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakCluster  - operation 2073621255 complete; remaining retries: 2
+1949 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Channel id:-1868344707 returned to pool
+1949 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Released pool permit
+1949 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting Complete on future
+Zmodyfikowano dokument: 
+{namespace: {type: default, bucket: movies}, key: Hitchcock}
+1953 [main] DEBUG com.basho.riak.client.core.RiakNode  - Attempting to acquire channel permit
+1956 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Operation onSuccess() channel: id:-1868344707 localhost:8087
+1957 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting to Cleanup Wait State
+1959 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakCluster  - operation 1497845528 complete; remaining retries: 2
+1959 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Channel id:-1868344707 returned to pool
+1958 [main] DEBUG com.basho.riak.client.core.RiakNode  - Operation 1497845528 being executed on RiakNode localhost:8087
+1959 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Released pool permit
+1960 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting Complete on future
+Pobieranie i wypisywanie zmodyfikowanego dokumentu: 
+RiakObject{contentType: application/json, value: {"id":1,"title":"Ptaki","director":"Hitchcock","releaseYear":1963}, riakIndexes: null, links: null, userMeta: null, vtag: 15lD7MnvjjQltYlBC0hevh, isDeleted: false, isModified: false, vclock: com.basho.riak.client.api.cap.BasicVClock@2f6e3b9c, lastModified: 1592171151629}
+1963 [main] DEBUG com.basho.riak.client.core.RiakNode  - Attempting to acquire channel permit
+1969 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Operation onSuccess() channel: id:-1868344707 localhost:8087
+1969 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting to Cleanup Wait State
+1969 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakCluster  - operation 311227184 complete; remaining retries: 2
+1969 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Channel id:-1868344707 returned to pool
+1970 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Released pool permit
+1970 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting Complete on future
+1970 [main] DEBUG com.basho.riak.client.core.RiakNode  - Operation 311227184 being executed on RiakNode localhost:8087
+Usunieto dokument: 
+{location: {namespace: {type: default, bucket: movies}, key: Hitchcock}, options: {}, vClock: null}
+1971 [main] DEBUG com.basho.riak.client.core.RiakNode  - Attempting to acquire channel permit
+1973 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Operation onSuccess() channel: id:-1868344707 localhost:8087
+1973 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting to Cleanup Wait State
+1973 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakCluster  - operation 1146788778 complete; remaining retries: 2
+1973 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Channel id:-1868344707 returned to pool
+1973 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.RiakNode  - Released pool permit
+1973 [nioEventLoopGroup-2-1] DEBUG com.basho.riak.client.core.FutureOperation  - Setting Complete on future
+1974 [main] DEBUG com.basho.riak.client.core.RiakNode  - Operation 1146788778 being executed on RiakNode localhost:8087
+Pobieranie i wypisywanie zmodyfikowanego dokumentu: 
+null

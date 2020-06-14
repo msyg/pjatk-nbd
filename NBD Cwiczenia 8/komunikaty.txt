@@ -1,0 +1,14 @@
+Tworzenie obiektu klienta i clustra
+Cluster started, running nodes:[com.basho.riak.client.core.RiakNode@5419f379]
+Wrzucono nowy dokument: 
+{namespace: {type: default, bucket: movies}, key: Hitchcock}
+Pobieranie i wypisywanie dokumentu: 
+RiakObject{contentType: application/json, value: {"id":1,"title":"Psychoza","director":"Hitchcock","releaseYear":1960}, riakIndexes: null, links: null, userMeta: null, vtag: 5Qp9vMQQqcFTGXPbvImm1I, isDeleted: false, isModified: false, vclock: com.basho.riak.client.api.cap.BasicVClock@abc18bc6, lastModified: 1592171338233}
+Zmodyfikowano dokument: 
+{namespace: {type: default, bucket: movies}, key: Hitchcock}
+Pobieranie i wypisywanie zmodyfikowanego dokumentu: 
+RiakObject{contentType: application/json, value: {"id":1,"title":"Ptaki","director":"Hitchcock","releaseYear":1963}, riakIndexes: null, links: null, userMeta: null, vtag: 4p2BbY8HsvSZeOKCTLeo5t, isDeleted: false, isModified: false, vclock: com.basho.riak.client.api.cap.BasicVClock@49bf5be, lastModified: 1592171338410}
+Usunieto dokument: 
+{location: {namespace: {type: default, bucket: movies}, key: Hitchcock}, options: {}, vClock: null}
+Pobieranie i wypisywanie zmodyfikowanego dokumentu: 
+null

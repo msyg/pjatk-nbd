@@ -1,0 +1,165 @@
+﻿[
+  {
+    "people": {
+      "identity": 174,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Christopher Markus",
+        "born": 1970
+      }
+    },
+    "movie": {
+      "identity": 171,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    },
+    "Type(relatedTo)": "WROTE",
+    "relatedTo": {
+      "identity": 255,
+      "start": 174,
+      "end": 171,
+      "type": "WROTE",
+      "properties": {}
+    }
+  },
+  {
+    "people": {
+      "identity": 175,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Chris Evans",
+        "born": 1981
+      }
+    },
+    "movie": {
+      "identity": 171,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    },
+    "Type(relatedTo)": "ACTED_IN",
+    "relatedTo": {
+      "identity": 256,
+      "start": 175,
+      "end": 171,
+      "type": "ACTED_IN",
+      "properties": {
+        "roles": [
+          "Captain America"
+        ]
+      }
+    }
+  },
+  {
+    "people": {
+      "identity": 173,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Stephen McFeely",
+        "born": 1969
+      }
+    },
+    "movie": {
+      "identity": 171,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    },
+    "Type(relatedTo)": "WROTE",
+    "relatedTo": {
+      "identity": 254,
+      "start": 173,
+      "end": 171,
+      "type": "WROTE",
+      "properties": {}
+    }
+  },
+  {
+    "people": {
+      "identity": 172,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Joe Johnston",
+        "born": 1950
+      }
+    },
+    "movie": {
+      "identity": 171,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    },
+    "Type(relatedTo)": "DIRECTED",
+    "relatedTo": {
+      "identity": 253,
+      "start": 172,
+      "end": 171,
+      "type": "DIRECTED",
+      "properties": {}
+    }
+  },
+  {
+    "people": {
+      "identity": 176,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Hayley Atwell",
+        "born": 1982
+      }
+    },
+    "movie": {
+      "identity": 171,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    },
+    "Type(relatedTo)": "ACTED_IN",
+    "relatedTo": {
+      "identity": 257,
+      "start": 176,
+      "end": 171,
+      "type": "ACTED_IN",
+      "properties": {
+        "roles": [
+          "Peggy Carter"
+        ]
+      }
+    }
+  }
+]

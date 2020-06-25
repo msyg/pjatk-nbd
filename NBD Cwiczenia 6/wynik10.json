@@ -1,0 +1,96 @@
+﻿[
+  {
+    "airport": {
+      "start": {
+        "identity": 279,
+        "labels": [
+          "Airport"
+        ],
+        "properties": {
+          "name": "GRR"
+        }
+      },
+      "end": {
+        "identity": 232,
+        "labels": [
+          "Airport"
+        ],
+        "properties": {
+          "name": "MSN"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 279,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "GRR"
+            }
+          },
+          "relationship": {
+            "identity": 2114,
+            "start": 218,
+            "end": 279,
+            "type": "CHEAPEST_FLIGHT",
+            "properties": {
+              "date": "11/17/2015 16:11:47",
+              "duration": 23,
+              "distance": 137,
+              "airline": "20304",
+              "class": "economy",
+              "price": 108
+            }
+          },
+          "end": {
+            "identity": 218,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 218,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "ORD"
+            }
+          },
+          "relationship": {
+            "identity": 1899,
+            "start": 232,
+            "end": 218,
+            "type": "CHEAPEST_FLIGHT",
+            "properties": {
+              "date": "11/30/2015 05:26:41",
+              "duration": 30,
+              "distance": 108,
+              "airline": "19977",
+              "class": "economy",
+              "price": 88.5
+            }
+          },
+          "end": {
+            "identity": 232,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "MSN"
+            }
+          }
+        }
+      ],
+      "length": 2
+    },
+    "cost": 196.5
+  }
+]

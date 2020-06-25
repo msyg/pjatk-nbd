@@ -1,0 +1,36 @@
+1.	MATCH shortestpath = shortestPath((from:town{name: "Darjeeling" })-[*]-(to:peak{ name:"Sandakphu" }))
+	RETURN shortestpath, length(shortestpath)
+
+2.	MATCH shortestpath = shortestPath ((from:town{name: "Darjeeling" })-[*]-(to:peak{ name:"Sandakphu" })) 
+	WHERE ALL(shortestpath in rels(shortestpath) WHERE shortestpath.winter = "true")
+	RETURN shortestpath
+
+3.	MATCH (a)-[r *]->(b) where a.name="Darjeeling" and b.name="Sandakphu" return a,b,r,reduce(dist=0, x IN r | dist + x.distance) 
+	ORDER BY reduce(dist=0, x IN r | dist + x.distance)
+
+4. 	MATCH (f:Flight)-[r:ORIGIN]->(a:Airport) return a, count(*) 
+	ORDER BY count(*)	
+
+5.	MATCH (airportOrigin:Airport)<-[:ORIGIN]-(flight:Flight)-[:DESTINATION]->(airportDestination:Airport), (flight)<-[:ASSIGN]-(ticket:Ticket)
+	WITH airportOrigin, airportDestination, flight, min(ticket.price) as minPrice
+	MATCH (flight)<-[:ASSIGN]-(t:Ticket {price: minPrice})
+	WITH airportOrigin, airportDestination, flight, t
+	CREATE (airportOrigin)-[minPriceFlight:CHEAPEST_FLIGHT {price: t.price, class:t.class, date: flight.date, duration: flight.duration, distance: flight.distance, airline:flight.airline}]->(airportDestination)
+	RETURN minPriceFlight
+
+	MATCH airport=(airportDestination:Airport)<-[minPriceFlight:CHEAPEST_FLIGHT*1..6]-(airportOrigin:Airport {name: "LAX"}), ()-[origin:ORIGIN]->(airportDestination:Airport ) 
+	WITH airport,airportDestination, reduce(totalPrice=0, rel IN relationships(airport)|totalPrice + rel.price) as cost 
+	WHERE cost < 3000  
+	return distinct airportDestination
+
+
+9.	MATCH airport=(airportDestination:Airport)<-[minPriceFlight:CHEAPEST_FLIGHT]-(airportOrigin:Airport) WITH minPriceFlight, airportDestination.name + airportOrigin.name as special 
+	RETURN  minPriceFlight.airline as flight,  count(DISTINCT special) AS number 
+	ORDER BY number DESC
+
+10.	MATCH airport=(airportDestination:Airport)<-[:CHEAPEST_FLIGHT]-(airportOrigin:Airport)<-[:CHEAPEST_FLIGHT]-(airportThird:Airport)  
+	WITH airport, reduce(totalPrice=0, rel IN relationships(airport)|totalPrice + rel.price) as cost 
+	WHERE airportDestination<>airportThird  
+	RETURN airport, cost 
+	ORDER BY cost LIMIT 1
+

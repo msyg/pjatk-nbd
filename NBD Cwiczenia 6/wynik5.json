@@ -1,0 +1,299 @@
+﻿[
+  {
+    "airportDestination": {
+      "identity": 252,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "FAT"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 216,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "LAX"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 212,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "EWR"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 218,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "ORD"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 232,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "MSN"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 251,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "ABQ"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 224,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SMF"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 228,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "DEN"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 236,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "LAS"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 253,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "TUS"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 213,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "IAH"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 229,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "DFW"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 223,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "IAD"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 215,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "MCO"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 217,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "FLL"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 242,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "LGA"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 227,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "BOS"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 222,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SFO"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 221,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "PDX"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 239,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SJC"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 250,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "MIA"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 243,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "ROC"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 238,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "CMH"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 240,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "PHX"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 211,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SEA"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 249,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "PBI"
+      }
+    }
+  },
+  {
+    "airportDestination": {
+      "identity": 233,
+      "labels": [
+        "Airport"
+      ],
+      "properties": {
+        "name": "SNA"
+      }
+    }
+  }
+]
